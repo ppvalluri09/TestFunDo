@@ -50,5 +50,6 @@ What can be done?
      
      Scaling it up to a Constituency:-
      
-     
+     ![Ballot Coin Scaling](https://user-images.githubusercontent.com/44934630/61804518-a5dfc380-ae51-11e9-86bb-588befe5105f.png)
+
      
