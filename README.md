@@ -26,5 +26,11 @@ What can be done?
      vote casting process is treated as a Transaction between the Voter and the Party and 1 Ballot coin will be transacted to the
      Party's Wallet.
      
-     The remaining 0.0X coins will be the Stake of the voter for voting that election. These remaining Ballot coins that the
-     Voter retains can be used by the individual to reduce his Government bills such as the Electricity, 
+     This Ballot coins can help increase the percentage of people who vote in the elections. Let's see how.
+     
+     Each voter is supposed to be given 0.0X Ballot coins for voting, but also each voter's stake depends not only on his vote but also 
+     the number of citizens who do not to vote in that particular Constituency. How is this achieved?
+     
+     Let's consider the case of the 2019 elections in INDIA:-
+     
+     
