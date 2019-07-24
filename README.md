@@ -48,5 +48,7 @@ What can be done?
      incurred by each person will be larger if the number of people increase. This create a constraint between the people to Vote, 
      because there will be pressure from the society to vote as lack of a few votes can decrease each person's stake. 
      
+     Scaling it up to a Constituency:-
+     
      
      
