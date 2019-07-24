@@ -33,4 +33,12 @@ What can be done?
      
      Let's consider the case of the 2019 elections in INDIA:-
      
+     ![Voters](https://user-images.githubusercontent.com/44934630/61799146-2dc0d000-ae48-11e9-8cb0-a749c41fefc0.png)
+
+     Just 67.11% people of the total number of eligible voters want to contribute towards their Nation's development, is disheartening.
+     So we introduce Ballot coins to resolve this issue. Like mentioned before each voter gets his/her stake of Ballot coins, but the 
+     number of Ballot coins each person receives is not only dependent on the people who voted but also on the people who did not.
+     
+     Let's Scale the problem down to 5 people:-
+     
      
