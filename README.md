@@ -41,4 +41,12 @@ What can be done?
      
      Let's Scale the problem down to 5 people:-
      
+     ![Ballot Coin Schema](https://user-images.githubusercontent.com/44934630/61800748-39fa5c80-ae4b-11e9-8634-d763cdcd7769.png)
+
+     Since the person 'E' did not vote in the second case the stake of the others who have voted has decreased. So instead
+     of 0.05 Ballot coins (taken arbitrarily in this case) each of the people who voted get only 0.04 beacuse of the person E. This loss 
+     incurred by each person will be larger if the number of people increase. This create a constraint between the people to Vote, 
+     because there will be pressure from the society to vote as lack of a few votes can decrease each person's stake. 
+     
+     
      
