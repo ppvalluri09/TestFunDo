@@ -60,6 +60,6 @@ What can be done?
     to store all the transactions (Voters voting for their desired party is considered a transaction on 1 Ballot coin to the Party's 
     wallet), we can check the Blockchain for the existence of the Wallet address of a particular citizen associated with that unique ID.
     
-    Well using the Blockchain may not be feasible when the volumes of people are in Crores, so we can use the concept of Lightning  
+    Well using the Blockchain may not be feasible when the volumes of people are in Crores, so we can use the concept of Lightning 
     Network to speed up the process, i.e. Use micropayment channels to verify and validate the vote of each citizen and then mine the
     transactions after an interval of time.
