@@ -53,7 +53,7 @@ What can be done?
      ![Ballot Coin Scaling](https://user-images.githubusercontent.com/44934630/61804518-a5dfc380-ae51-11e9-86bb-588befe5105f.png)
 
  
-2. <h3>Multicasting of Votes</h3>
+2. <h3>Avoiding Multicasting of Votes</h3>
  
     One of the main problem in Indian elections is one person casting multiple votes illegally. The traditional method of using marker
     ink to detect the status of voting is not a fair way to determine if a person has voted or not. Since we are using a Blockchain 
@@ -69,3 +69,7 @@ What can be done?
    At the end of the Election Process, the Channel will be broken and the transactions will be mined into the Global Blockchain.
    
    The diagram depicts the following scenario:-
+
+<img src="https://user-images.githubusercontent.com/44934630/61872969-4ee5f700-af02-11e9-88eb-a4301f750150.png"/>
+
+4. <h3>Counting the Votes</h3>
