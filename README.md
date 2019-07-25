@@ -18,7 +18,7 @@ What can be done?
 
 <h2>Solutions</h2>
 
- 1. <h3>Ballot Coin - To increase the percentage of people who Vote</h3>
+1. <h3>Ballot Coin - To increase the percentage of people who Vote</h3>
  
      Prior to the Elections, the Election commission produces some 'N' number of Ballot Coins based on the number of Eligible
      voters for that specific term. Each voter will be provided 1.0X Ballot coins ( X can be any number that the Election 
@@ -53,13 +53,19 @@ What can be done?
      ![Ballot Coin Scaling](https://user-images.githubusercontent.com/44934630/61804518-a5dfc380-ae51-11e9-86bb-588befe5105f.png)
 
  
- 2. <h3>Multicasting of Votes</h3>
+2. <h3>Multicasting of Votes</h3>
  
     One of the main problem in Indian elections is one person casting multiple votes illegally. The traditional method of using marker
     ink to detect the status of voting is not a fair way to determine if a person has voted or not. Since we are using a Blockchain 
     to store all the transactions (Voters voting for their desired party is considered a transaction on 1 Ballot coin to the Party's 
-    wallet), we can check the Blockchain for the existence of the Wallet address of a particular citizen associated with that unique ID.
-    
-    Well using the Blockchain may not be feasible when the volumes of people are in Crores, so we can use the concept of Lightning 
-    Network to speed up the process, i.e. Use micropayment channels to verify and validate the vote of each citizen and then mine the
-    transactions after an interval of time.
+    wallet), we can check the Blockchain for the existence of balance in his/her Wallet of a particular citizen associated with that 
+    unique ID.
+ 
+
+3. <h3>Handling the overload</h3>
+
+   Having 543 Blockchains for 543 Constituencies is practically not ideal, so we can use the idea of Lightning Network and implement it 
+   using Micropayment Channels. Each constituency has one Micropayment channel where all the transactions (votes) will be recorded.
+   At the end of the Election Process, the Channel will be broken and the transactions will be mined into the Global Blockchain.
+   
+   The diagram depicts the following scenario:-
