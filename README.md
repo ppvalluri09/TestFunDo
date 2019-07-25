@@ -11,7 +11,7 @@
   - Slow and Traditional vote counting method.
   - Long and Nasty process of document verification for the making of Voter-Ids.
 
-What can be done?
+<h4>What can be done?</h4>
 
 <h1>Decentralized Voting System using the Azure Blockchain</h1>
 
