@@ -4,7 +4,7 @@
 
    
 
-<h1>Problems with the current Voting System</h1>
+<h3>Problems with the current Voting System</h3>
 
   - Citizens not willing to Vote.
   - Multiple vote casts.
