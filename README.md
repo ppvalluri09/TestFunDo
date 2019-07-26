@@ -88,7 +88,7 @@
     
   It has always been a dream to have a voting system you could sit at your favorite place and vote for your desired party from your mobiles/laptops, but it is not practically possible to implement it because of the following reasons:-
 
- - Wipes out Secret Ballot which is the key to Voting process (keping a person's vote anonymous).
+ - Wipes out Secret Ballot which is the key to Voting process (keeping a person's vote anonymous).
  - Vulnerable to bribes by party members and forced to vote.
  - No proper access to internet/devices in remote areas.
  - Vulnerable to DDoS / Phishing attacks.
