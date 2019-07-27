@@ -11,7 +11,7 @@
 1. <h3>Ballot Coin-To increase the percentage of people who Vote</h3>
  
      Prior to the Elections, the Election commission produces some 'N' number of Ballot Coins based on the number of Eligible
-     voters for that specific term. Each voter will be provided 1.0X Ballot coins ( X can be any number that the Election 
+     voters for that specific term. <b>Each voter will be provided 1.0X Ballot coins</b> ( X can be any number that the Election 
      Commission wishes to choose). Each Voter will have to spend 1 Ballot Coin to cast their vote to his/her desired party. 
      This vote casting process is treated as a Transaction between the Voter and the Party and 1 Ballot coin will be 
      transacted to the Party's Wallet.
@@ -43,8 +43,8 @@
  
 2. <h3>Handling the overload</h3>
 
-   Having 543 Blockchains for 543 Constituencies is practically not ideal, so we can use the idea of Lightning Network and implement it 
-   using Micropayment Channels. Each constituency has one Micropayment channel where all the transactions (votes) will be recorded.
+   Having 543 Blockchains for 543 Constituencies is practically not ideal, so we can use the concept of <b>Lightning Network</b> and implement it 
+   using <b>Micropayment Channels</b>. Each constituency has one Micropayment channel where all the transactions (votes) will be recorded.
    At the end of the Election Process, the Channel will be broken and the transactions will be mined into the Global Blockchain.
    
    The diagram depicts the following scenario:-
@@ -76,4 +76,4 @@
   
 <h1>Why does one need any Ballot coins in the first place?</h1>
 
-   People can use these remianing Ballot coins to get subsidy on the Government bills like Gas, Electricity, etc. 
+   <b>People can use these remaining Ballot coins to get subsidy on the Government bills like Gas, Electricity, etc.</b>
