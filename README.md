@@ -1,9 +1,5 @@
 # TestFunDo
 
-<h1>Introduction</h1>
-
-   
-
 <h3>Problems with the current Voting System</h3>
 
   - Citizens not willing to Vote.
@@ -15,17 +11,15 @@
 
 <h1>Decentralized Voting System using the Azure Blockchain</h1>
 
-<h2>Solutions</h2>
+<h2>Proposals</h2>
 
-1. <h3>Ballot Coin - To increase the percentage of people who Vote</h3>
+1. <h3>Ballot Coin-To increase the percentage of people who Vote</h3>
  
      Prior to the Elections, the Election commission produces some 'N' number of Ballot Coins based on the number of Eligible
      voters for that specific term. Each voter will be provided 1.0X Ballot coins ( X can be any number that the Election 
-     Commission wishes to choose). Each Voter will have to spend 1 Ballot Coin to cast their vote to his/her desired party. This
-     vote casting process is treated as a Transaction between the Voter and the Party and 1 Ballot coin will be transacted to the
-     Party's Wallet.
-     
-     This Ballot coins can help increase the percentage of people who vote in the elections. Let's see how.
+     Commission wishes to choose). Each Voter will have to spend 1 Ballot Coin to cast their vote to his/her desired party. 
+     This vote casting process is treated as a Transaction between the Voter and the Party and 1 Ballot coin will be 
+     transacted to the Party's Wallet.
      
      Each voter is supposed to be given 0.0X Ballot coins for voting, but also each voter's stake depends not only on his vote but also 
      the number of citizens who do not to vote in that particular Constituency. How is this achieved?
@@ -33,35 +27,26 @@
      Let's consider the case of the 2019 elections in INDIA:-
      
      ![Voters](https://user-images.githubusercontent.com/44934630/61799146-2dc0d000-ae48-11e9-8cb0-a749c41fefc0.png)
-
-     Just 67.11% people of the total number of eligible voters want to contribute towards their Nation's development, is disheartening.
-     So we introduce Ballot coins to resolve this issue. Like mentioned before each voter gets his/her stake of Ballot coins, but the 
-     number of Ballot coins each person receives is not only dependent on the people who voted but also on the people who did not.
+     
+     We introduce Ballot coins to resolve this issue. Like mentioned before each voter gets his/her stake of Ballot coins, 
+     but the number of Ballot coins each person receives is not only dependent on the people who voted but also on the people 
+     who did not.
      
      Let's Scale the problem down to 5 people:-
      
      ![Ballot Coin Schema](https://user-images.githubusercontent.com/44934630/61800748-39fa5c80-ae4b-11e9-8634-d763cdcd7769.png)
 
      Since the person 'E' did not vote in the second case the stake of the others who have voted has decreased. So instead
-     of 0.05 Ballot coins (taken arbitrarily in this case) each of the people who voted get only 0.04 beacuse of the person E. This loss 
-     incurred by each person will be larger if the number of people increase. This create a constraint between the people to Vote, 
-     because there will be pressure from the society to vote as lack of a few votes can decrease each person's stake. 
+     of 0.05 Ballot coins (taken arbitrarily in this case) each of the people who voted get only 0.04 beacuse of the person 
+     E. This loss incurred by each person will be larger if the number of people increase. This create a constraint between 
+     the people to Vote, because there will be pressure from the society to vote as lack of a few votes can decrease each 
+     person's stake. 
      
      Scaling it up to a Constituency:-
      
      ![Ballot Coin Scaling](https://user-images.githubusercontent.com/44934630/61804518-a5dfc380-ae51-11e9-86bb-588befe5105f.png)
-
  
-2. <h3>Avoiding Multicasting of Votes</h3>
- 
-    One of the main problem in Indian elections is one person casting multiple votes illegally. The traditional method of using marker
-    ink to detect the status of voting is not a fair way to determine if a person has voted or not. Since we are using a Blockchain 
-    to store all the transactions (Voters voting for their desired party is considered a transaction on 1 Ballot coin to the Party's 
-    wallet), we can check the Blockchain for the existence of balance in his/her Wallet of a particular citizen associated with that 
-    unique ID.
- 
-
-3. <h3>Handling the overload</h3>
+2. <h3>Handling the overload</h3>
 
    Having 543 Blockchains for 543 Constituencies is practically not ideal, so we can use the idea of Lightning Network and implement it 
    using Micropayment Channels. Each constituency has one Micropayment channel where all the transactions (votes) will be recorded.
@@ -71,17 +56,21 @@
 
 <img src="https://user-images.githubusercontent.com/44934630/61872969-4ee5f700-af02-11e9-88eb-a4301f750150.png"/>
 
-
+3. <h3>Avoiding Multicasting of Votes</h3>
+ 
+    One of the main problem in Indian elections is one person casting multiple votes illegally. The traditional method of using marker
+    ink to detect the status of voting is not a fair way to determine if a person has voted or not. Since we are using a Blockchain 
+    to store all the transactions, we can check the Micropayment Channel for the existence of balance in his/her Wallet of a particular citizen associated with that 
+    unique ID.
 
 4. <h3>Dynamic Voter ID</h3>
 
-   Each time a person votes a unique Voter Id is generated by hashing his/her Aadhaar Card, Timestamp, name, etc... and corresponded to     their transaction.
-
+   Each time a person votes a unique Voter Id is generated by hashing his/her Aadhaar Card, Timestamp, name, etc... and corresponded to their transaction.
 
 
 5. <h3>Counting the Votes</h3>
 
-   After election ends we just need to check the total number of Ballot Coins in each party's wallet. As each vote corresponds to a         transaction it is much easier to calculate the turnout.
+   After election ends we just need to check the total number of Ballot Coins in each party's wallet. As each vote corresponds to a transaction it is much easier to calculate the turnout.
 
 
 <h1>Why Old School again?</h1>
@@ -93,4 +82,6 @@
  - No proper access to internet/devices in remote areas.
  - Vulnerable to DDoS / Phishing attacks.
   
-  
+<h1>Why does one need any Ballot coins in the first place?</h1>
+
+   People can use these remianing Ballot coins to get subsidy on the Government bills like Gas, Electricity, etc. 
