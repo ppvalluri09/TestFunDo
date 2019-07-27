@@ -70,7 +70,7 @@
 
 <h1>Why Old School again?</h1>
     
-  It has always been a dream to have a voting system you could sit at your favorite place and vote for your desired party from your mobiles/laptops.
+  It has always been a dream to have a voting system where you could sit at your favorite place and vote for your desired party from your mobiles/laptops. But it isn't practically possible.
 
 ![old school](https://user-images.githubusercontent.com/44934630/61998458-1430ba00-b0ce-11e9-975d-d91635db1362.png)
   
