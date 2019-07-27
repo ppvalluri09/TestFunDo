@@ -2,7 +2,7 @@
 
 ![Inroduction](https://user-images.githubusercontent.com/44934630/61998454-0844f800-b0ce-11e9-8dc3-856ea4d8d8d3.png)
 
-<h4>What can be done?</h4>
+<h3>What can be done?</h3>
 
 <h1>Decentralized Voting System using the Azure Blockchain</h1>
 
