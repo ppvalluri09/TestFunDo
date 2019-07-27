@@ -1,11 +1,6 @@
 # TestFunDo
 
-<h3>Problems with the current Voting System</h3>
-
-  - Citizens not willing to Vote.
-  - Multiple vote casts.
-  - Slow and Traditional vote counting method.
-  - Long and Nasty process of document verification for the making of Voter-Ids.
+![Inroduction](https://user-images.githubusercontent.com/44934630/61998454-0844f800-b0ce-11e9-8dc3-856ea4d8d8d3.png)
 
 <h4>What can be done?</h4>
 
@@ -75,12 +70,9 @@
 
 <h1>Why Old School again?</h1>
     
-  It has always been a dream to have a voting system you could sit at your favorite place and vote for your desired party from your mobiles/laptops, but it is not practically possible to implement it because of the following reasons:-
+  It has always been a dream to have a voting system you could sit at your favorite place and vote for your desired party from your mobiles/laptops.
 
- - Wipes out Secret Ballot which is the key to Voting process (keeping a person's vote anonymous).
- - Vulnerable to bribes by party members and forced to vote.
- - No proper access to internet/devices in remote areas.
- - Vulnerable to DDoS / Phishing attacks.
+![old school](https://user-images.githubusercontent.com/44934630/61998458-1430ba00-b0ce-11e9-975d-d91635db1362.png)
   
 <h1>Why does one need any Ballot coins in the first place?</h1>
 
