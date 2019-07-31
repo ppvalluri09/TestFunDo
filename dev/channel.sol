@@ -9,14 +9,15 @@ contract Channel {
         address voter;
         address party;
     }
-    uint count = 0;
+    uint voted_count = 0;
+    uint eligible_count = 100;
     address host = msg.sender;
     mapping(uint => Vote) votes;
     
     function addTransaction(uint _transaction_id, address _voter, address _party) public {
         require(host == msg.sender);
-        votes[count] = Vote(_transaction_id, _voter, _party);
-        count +=1;
+        votes[voted_count] = Vote(_transaction_id, _voter, _party);
+        voted_count +=1;
     }
     
     function getResults() view public returns(uint) {
