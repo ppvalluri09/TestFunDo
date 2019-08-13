@@ -1,3 +1,4 @@
+
 App = {
   web3Provider: null,
   contracts: {},
@@ -54,6 +55,9 @@ App = {
       var candidates_result = $("#candidateResults");
       candidates_result.empty();
 
+      var candidates_select = $("#candidatesSelect");
+      candidates_select.empty();
+
       for (var i = 1; i <= count; i++) {
         election_instance.candidates(i).then(function(candidate) {
           var id = candidate[0];
@@ -62,10 +66,32 @@ App = {
 
           var template = "<tr><th>" + id + "</th><td>" + name + "</td><td>" + votes + "</td></tr>";
           candidates_result.append(template);
+
+          var option_template = "<option value='" + id + "'>" + name + "</option>";
+          candidates_select.append(option_template);
         });
       }
-    loader.hide();
-    content.show();
+    return election_instance.voted(App.account);
+    }).then(function(voted) {
+      // Dont allow to vote
+      if (voted) {
+        $('form').hide();
+      }
+      loader.hide();
+      content.show();
+    }).catch(function(err) {
+      console.warn(err);
+    });
+  },
+
+  castVote: function() {
+    var candidate_id = $("#candidatesSelect").val();
+    App.contracts.Election.deployed().then(function(instance) {
+      return instance.vote(candidate_id, { from: App.account });
+    }).then(function(result) {
+      $("#content").hide();
+      $("#loader").show();
+      return App.render();
     }).catch(function(err) {
       console.warn(err);
     });
