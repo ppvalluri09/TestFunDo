@@ -1,5 +1,13 @@
 # TestFunDo
 
+Before using the code please run:-
+ 
+                                                     npm install
+
+Connect to your local blockchain using MetaMask and Ganache... After you are all set goto your terminal and run:-
+
+                                                     npm run dev
+
 ![Inroduction](https://user-images.githubusercontent.com/44934630/61998454-0844f800-b0ce-11e9-8dc3-856ea4d8d8d3.png)
 
 <h3>What can be done?</h3>
