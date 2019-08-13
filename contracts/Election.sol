@@ -29,4 +29,15 @@ contract Election {
 		candidates_length ++;
 		candidates[candidates_length] = Candidate(candidates_length, _name, 0);
 	}
+	
+	function vote(uint _candidate_id) public {
+
+		// Run-time Error handling
+		require(!voted[msg.sender], "Address has not voted");
+		require(_candidate_id >= 1 && _candidate_id <= candidates_length, "Valid ID of candidate");
+
+		voted[msg.sender] = true;
+
+		candidates[_candidate_id].votes ++;
+	}
 }
