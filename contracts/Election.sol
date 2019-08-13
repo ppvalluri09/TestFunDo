@@ -16,11 +16,14 @@ contract Election {
 	uint public candidates_length;
 
 	// Address of the voter
-	address voter;
+	address deployer;
+
+	// Keeping track of all the voters
+	mapping(address => bool) public voted;
 
 	constructor() public {
 		candidates_length = 0;
-		voter = msg.sender;
+		deployer = msg.sender;
 		addCandidate("Candidate 1");
 		addCandidate("Candidate 2");
 	}
@@ -29,7 +32,7 @@ contract Election {
 		candidates_length ++;
 		candidates[candidates_length] = Candidate(candidates_length, _name, 0);
 	}
-	
+
 	function vote(uint _candidate_id) public {
 
 		// Run-time Error handling
@@ -40,4 +43,5 @@ contract Election {
 
 		candidates[_candidate_id].votes ++;
 	}
+	
 }
