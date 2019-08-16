@@ -1,12 +1,21 @@
 # TestFunDo
 
+Clone this repository using:-
+
+                                        git clone https://github.com/ppvalluri09/TestFunDo/    
+
 Before using the code please run:-
  
-                                                     npm install
+                                                         cd TestFunDo
+                                                         npm install
 
-Connect to your local blockchain using MetaMask and Ganache... After you are all set goto your terminal and run:-
+Connect to your local blockchain using MetaMask and Ganache, keep your Ganache running on the same port as mentioned in the truffle-config.js file... After you are all set goto your terminal and run:-
 
-                                                     npm run dev
+                                                     truffle migrate --reset
+                                                     
+                                                          npm run dev
+                                                          
+We are resetting the migrations because we want our truffle to configure the changes made to the contract and Re-Deploy them to the Blockchain again... Note:- Only re-deploy the contract if you have made changes to any code in the .sol files (Contracts)... By default the Application runs on the URL:- http://localhost:3000.
 
 ![Inroduction](https://user-images.githubusercontent.com/44934630/61998454-0844f800-b0ce-11e9-8dc3-856ea4d8d8d3.png)
 
